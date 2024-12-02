@@ -29,6 +29,8 @@ This is a simple backend server for chatbot services:
 2. Check the current rate of a currency and change its value
 <br>
 P.S: For now I am only able to seek rates for USD, if I want to search another currency I have to pay for a premium account for the currency API.
+<br>
+P.S2: You will need an env file for app deployment, I will send you the .env file inside this email.
 
 ## Endpoints
 
