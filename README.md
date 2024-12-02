@@ -40,6 +40,10 @@ Right now we have two endpoints:
 2. /chat
   1. POST: Let the user make queries to the chatbot, you are able to search products, rates for currencies and even convert prices for your searched products
 
+## Future should do improvements
+1. Don't save the data in a CSV, save it in a relational DB like PostgreSQL. (Add more fields too, like currency type, changelogs, etc)
+2. A better approach could be using a vectorized database for auto-generated chat (product search), use Pinecone.
+
 ## Project setup
 
 ```bash
