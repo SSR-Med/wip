@@ -24,7 +24,19 @@
 
 ## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+This is a simple backend server for chatbot services:
+1. Seek products from a CSV files, giving recommendations to the user based on his query (he can even check the products in other currencies!).
+2. Check the current rate of a currency and change its value
+<br>
+P.S: For now I am only able to seek rates for USD, if I want to search another currency I have to pay for a premium account for the currency API.
+
+## Endpoints
+
+Right now we have two endpoints:
+1. /api
+  1. GET: Its the route for the SWAGGER documentation, over here you can preview the available routes
+2. /chat
+  1. POST: Let the user make queries to the chatbot, you are able to search products, rates for currencies and even convert prices for your searched products
 
 ## Project setup
 
@@ -43,19 +55,6 @@ $ npm run start:dev
 
 # production mode
 $ npm run start:prod
-```
-
-## Run tests
-
-```bash
-# unit tests
-$ npm run test
-
-# e2e tests
-$ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
 ```
 
 ## Deployment
