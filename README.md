@@ -32,6 +32,11 @@ P.S: For now I am only able to seek rates for USD, if I want to search another c
 <br>
 P.S2: You will need an env file for app deployment, I will send you the .env file inside this email.
 
+## Env variables
+- PORT: Port for the server
+- OPENAI_API_KEY: OpenAI api key.
+- CURRENCY_ID: The api key for https://openexchangerates.org/
+
 ## Endpoints
 
 Right now we have two endpoints:
