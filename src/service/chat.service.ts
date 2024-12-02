@@ -20,10 +20,6 @@ export class ChatService {
         });
     }
 
-    getChat(){
-        return "Hello from chat service";
-    }
-
     // Method for getting the currency message
     async getCurrencyMessage(amount:number, from: string, to: string){
         return await this.currencyService.getCurrency({ amount, from, to });
